@@ -1,12 +1,30 @@
-$body-background: url('.public/images/desert_sun.jpg');
+$body-background: url('/images/mon_valley.jpg');
+
+body {
+  background: $body-background;
+  background-size: cover;
+}
 
 $space-large: 2.5rem;
-$title-color: darkgray;
+$title-color: #ffcc00;
+$topbar-background: #b30000;
 
 .page-title {
   color: $title-color;
   margin-top: $space-large;
   margin-bottom: $space-large;
+}
+
+.menu-text {
+  color: #cc7a00;
+}
+
+.top-bar {
+  background: $topbar-background;
+}
+.menu
+{
+  background: $topbar-background;
 }
 
 input[type=search] {
