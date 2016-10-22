@@ -1,7 +1,4 @@
-body {
-  background: url(/public/images/desert_sun.jpg);
-  // background: #38E2DD;
-}
+$body-background: url('.public/images/desert_sun.jpg');
 
 $space-large: 2.5rem;
 $title-color: darkgray;
