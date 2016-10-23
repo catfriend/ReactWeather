@@ -7,7 +7,7 @@ body {
 
 $space-large: 2.5rem;
 $title-color: #ffcc00;
-$topbar-background: #b30000;
+$topbar-bg: #b30000;
 
 .page-title {
   color: $title-color;
@@ -19,13 +19,20 @@ $topbar-background: #b30000;
   color: #cc7a00;
 }
 
+.menu-color {
+  background-color: #b30000;
+}
+
 .top-bar {
-  background: $topbar-background;
+  background: $topbar-bg;
 }
-.menu
-{
-  background: $topbar-background;
-}
+// .top-bar-left { fail
+//   background-color: #b30000;
+// }
+// .menu
+// {
+//   background: $topbar-background;
+// } fail
 
 input[type=search] {
   box-shadow: none;
