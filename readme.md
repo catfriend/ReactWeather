@@ -1,1 +1,1 @@
-React Weather Application
+React Weather Application This is a simple application to get the weather in a given city. It was built with React, Webpack, styled with Foundation, with weather data obtained from the Open Weather Map api. The finished app can be seen at http://radiant-atoll-31951.herokuapp.com/#/?_k=i3s2cd

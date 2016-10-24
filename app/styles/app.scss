@@ -3,6 +3,7 @@ $body-background: url('/images/mon_valley.jpg');
 body {
   background: $body-background;
   background-size: cover;
+  color: #e6b800
 }
 
 $space-large: 2.5rem;
@@ -15,24 +16,23 @@ $topbar-bg: #b30000;
   margin-bottom: $space-large;
 }
 
-.menu-text {
-  color: #cc7a00;
+li {
+  text-color: $title-color;
 }
 
-.menu-color {
+.text-color {
+  // color: #ffad33;
+  color: $title-color;
+}
+
+.mt-color {
   background-color: #b30000;
 }
 
 .top-bar {
   background: $topbar-bg;
 }
-// .top-bar-left { fail
-//   background-color: #b30000;
-// }
-// .menu
-// {
-//   background: $topbar-background;
-// } fail
+
 
 input[type=search] {
   box-shadow: none;
